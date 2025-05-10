@@ -158,10 +158,33 @@ body {
   align-self: end;
 }
 
+.call-to-action {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding: 50px 100px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 8px 32px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+}
+
 /* footer goes here */
 
 .footer .copyright {
   height: 100px;
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
