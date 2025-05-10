@@ -10,22 +10,18 @@ body {
   line-height: 1.5;
 }
 
-.header,
-.footer {
-  background-color: #1f2937;
-  color: #fff;
-}
 
 /* header goes here */
 
 .header {
-  padding: 20px 0 100px 0;
+  background-color: #1f2937;
+  color: #fff;
 }
 
 .navbar {
   max-width: 1000px;
   margin: 0 auto;
-  padding-bottom: 50px;
+  padding: 10px;
 
   display: flex;
   justify-content: space-between;
@@ -53,10 +49,10 @@ body {
 .hero {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 100px 10px;
 
   display: flex;
-  gap: 100px;
+  gap: 50px;
 }
 
 .hero .container {
@@ -99,7 +95,7 @@ body {
 .info {
   max-width: 800px;
   margin: 0 auto;
-  padding: 50px 0 100px 0;
+  padding: 50px 10px;
   text-align: center;
 }
 
@@ -113,6 +109,7 @@ body {
 .cards-container {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 
 .card {
@@ -139,7 +136,7 @@ body {
 .quote-container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px 10px;
   display: flex;
   flex-direction: column;
 }
@@ -181,6 +178,11 @@ body {
 }
 
 /* footer goes here */
+
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+}
 
 .footer .copyright {
   height: 100px;
