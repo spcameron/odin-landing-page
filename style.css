@@ -16,6 +16,8 @@ body {
   color: #fff;
 }
 
+/* header goes here */
+
 .header {
   padding: 20px 0 100px 0;
 }
@@ -76,6 +78,12 @@ body {
   line-height: 1.2;
 }
 
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  line-height: 1.2;
+}
+
 .hero button {
   background-color: #3882f6;
   color: #f9faf8;
@@ -86,13 +94,71 @@ body {
   border-radius: 8px;
 }
 
-.hero p {
-  font-size: 18px;
-  color: #e5e7eb;
-  line-height: 1.2;
+/* main goes here */
+
+.info {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0 100px 0;
+  text-align: center;
 }
 
-/* main */
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding: 50px 0;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 150px;
+}
+
+.icon {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  flex: none;
+  margin: 0 auto;
+}
+
+.card p {
+  padding: 10px 0;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote-attribution {
+  font-size: 24px;
+  font-weight: 900;
+  color: #1f2937;
+  align-self: end;
+}
+
+/* footer goes here */
 
 .footer .copyright {
   height: 100px;
